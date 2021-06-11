@@ -6,5 +6,7 @@ module.exports = {
         }
       }
     },
-    publicPath: `/abz/`
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/abz/'
+    : '/'
   }
