@@ -36,7 +36,8 @@
         }
         h2  {
             margin-top: 15px;
-            overflow-wrap: anywhere;
+            display: inline-block;
+            word-break: break-word;
         }
         p {
             margin-top: 4px;
